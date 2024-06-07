@@ -1,0 +1,95 @@
+.glass {
+    width: 100%;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0px;
+}
+  
+.title {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.back {
+    margin: 2rem 0;
+    padding: 30%;
+    color: white;
+    background-image: url(https://pbs.twimg.com/media/FvC22BDaMAABrL4?format=jpg&name=240x240);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.kokin {
+    margin: 10px;
+    padding: 96px;
+    color: white;
+    background-image: url(https://pbs.twimg.com/profile_images/1776522907071680512/jgwk1s3X_400x400.jpg);
+    background-size: 256px auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: black;
+}
+
+.nally {
+    margin: 10px;
+    padding: 96px;
+    color: white;
+    background-image: url(https://pbs.twimg.com/profile_images/1706951318139772928/hEwf5qNH_400x400.jpg);
+    background-size: 256px auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: black;
+}
+
+.roxi {
+    margin: 10px;
+    padding: 96px;
+    color: white;
+    background-image: url(https://pbs.twimg.com/profile_images/1653013748863598593/JtLJEjCv_400x400.jpg);
+    background-size: 256px auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: black;
+}
+
+.rail {
+    margin: 10px;
+    padding: 96px;
+    color: white;
+    background-image: url(https://pbs.twimg.com/profile_images/1653013748863598593/JtLJEjCv_400x400.jpg);
+    background-size: 256px auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: black;
+}
+
+.squ {
+    margin: 10px;
+    padding: 96px;
+    color: white;
+    background-image: url(https://pbs.twimg.com/profile_images/1533386285569949696/erJZ7Sug_400x400.jpg);
+    background-size: 256px auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: black;
+}
