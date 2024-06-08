@@ -1,0 +1,33 @@
+.member-grid {
+    gap: 20px;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+}
+
+.member img {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+
+    margin-right: 20px;
+}
+
+.member-info {
+    flex: 1;
+}
+
+.member-info span {
+    font-weight: bold;
+}
+
+.member-info p {
+    margin: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
