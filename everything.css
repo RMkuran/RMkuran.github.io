@@ -42,15 +42,18 @@
 .poppins-bold {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-style: normal;
+    font-style: italic;
+    font-size: 230%;
 }
 
-.poppins-black-italic {
+.poppins-black {
     font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
+    font-weight: 800;
+    font-style: normal;
     margin-left: 40px;
+    text-align: center;
 }
+
 
 
 
