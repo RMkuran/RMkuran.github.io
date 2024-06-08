@@ -1,16 +1,20 @@
 .member-grid {
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .member {
     display: flex;
     align-items: center;
-    max-width: 500px;
+    max-width: 900px;
+    flex-basis: 500px; /* 任意の固定幅 */
+    flex-grow: 1;
 }
 
 .member img {
     margin-left: 100px;
-    margin-bottom: 10px;
+
     width: 200px;
     height: 200px;
 
