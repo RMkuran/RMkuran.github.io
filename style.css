@@ -1,16 +1,15 @@
 .back {
-    padding-top: 40%;
-    background-image: url(media/BTS.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-position: center;
+    
     display: flex;
-    align-items: center;
     justify-content: center;
-    border-radius: 50px;
-    box-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.1);
+    
+}
 
+
+.kadomaru {
+    border-radius: 25px;
+    max-width: 95%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 
 
 }

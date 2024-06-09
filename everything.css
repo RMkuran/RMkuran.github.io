@@ -44,6 +44,7 @@
     font-weight: 700;
     font-style: italic;
     font-size: 230%;
+    white-space:nowrap;
 }
 
 .poppins-black {
