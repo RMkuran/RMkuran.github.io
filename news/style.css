@@ -1,38 +1,70 @@
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    margin: auto;
+    justify-content: center;
 }
 .item {
-    width: 30%; /* 100% / 3 - marginの調整 */
+    width: 500px; /* 100% / 3 - marginの調整 */
     margin: 1%;
     
     box-sizing: border-box;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    padding-bottom: 10px;
+    transition: box-shadow 1s;
+     /* 追加 */
+    
+}
+
+.item:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
 
 }
 
-
-
+.item_thumb{
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 .item img {
-    width: 100%;
+
+    width: 500px;
+    height: 281.25px;
     display: block;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+
+
+    
+    transition: transform 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     
 }
 
 
-.description {
-    text-align: center;
+.item:hover img{
+    transform: scale(1.05);
+    
 }
 
-.title {
+.description {
+    text-align: center;
 
+}
+
+
+.description span{
+    font-size: 120%;
     font-weight: 800;
     font-style: normal;
     text-align: center;
+    color: #000;
 }
+
+
+.description p{
+    font-size: 80%;
+    color: #00000080;
+    font-style: normal;
+    text-align: center;
+}
+
